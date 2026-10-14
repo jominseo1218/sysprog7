@@ -15,12 +15,8 @@
 make          # gcc -Wall -Wextra 로 네 프로그램을 빌드 (경고 0개)
 make bug      # close 누락 실험용 1_pipe_bug 빌드
 make clean
-```
 
-![빌드](screenshots/0_build.png)
-
----
-
+----
 ## 1. 파이프 두 개로 왕복 — `1_pipe.c`
 
 부모가 보낸 문자열을 자식이 대문자로 바꿔 돌려줍니다. 파이프는 단방향이라서 왕복하려면 두 개가 필요합니다.
